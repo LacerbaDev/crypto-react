@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/git@github.com:LacerbaDev/crypto-react.git/static/css/main.01fc9290.css",
+    "main.js": "/git@github.com:LacerbaDev/crypto-react.git/static/js/main.c3253bd7.js",
+    "index.html": "/git@github.com:LacerbaDev/crypto-react.git/index.html",
+    "main.01fc9290.css.map": "/git@github.com:LacerbaDev/crypto-react.git/static/css/main.01fc9290.css.map",
+    "main.c3253bd7.js.map": "/git@github.com:LacerbaDev/crypto-react.git/static/js/main.c3253bd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01fc9290.css",
+    "static/js/main.c3253bd7.js"
+  ]
+}
