@@ -2,7 +2,7 @@
   "name": "react-course",
   "version": "0.1.0",
   "private": true,
-  "homepage": "git@github.com:LacerbaDev/crypto-react.git",
+  "homepage": "http://lacerbadev.github.io/crypto-react",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
