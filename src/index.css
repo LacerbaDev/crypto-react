@@ -14,7 +14,7 @@ code {
 
 #root {
   min-height: 100vh;
-  /*background-color: #001035;*/
+  background-color: #001035;
   display: flex;
   align-items: center;
   flex-direction: column;
