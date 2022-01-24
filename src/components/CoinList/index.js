@@ -28,7 +28,7 @@ class CoinList extends React.Component {
   }
 
   getCoinDetail = (id) => {
-    this.props.history.push(`/coins/${id}`)
+    this.props.history.push(`/crypto-react/coins/${id}`)
   }
 
   fetchCoinMarket = async () => {

@@ -20,8 +20,8 @@ export default class Project extends Component {
     return (
       <Router>
         <Switch>
-          <Route path="/" render={props => <CoinList {...props} />} exact />
-          <Route path="/coins/:coinId">
+          <Route path="/crypto-react" render={props => <CoinList {...props} />} exact />
+          <Route path="/crypto-react/coins/:coinId">
             <CoinDetail />
           </Route>
         </Switch>
