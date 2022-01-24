@@ -4,7 +4,7 @@ import './style.css'
 
 function CoindCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }} className="coin-card">
+    <Card sx={{ maxWidth: 345 }} className="coin-card" onClick={() => props.getCoinDetail(props.id)}>
       <CardActionArea>
         <CardMedia
           image={props.image}
@@ -16,7 +16,7 @@ function CoindCard(props) {
             {props.name} - {props.symbol}
           </Typography>
           <Typography variant="h6" component="h3">
-            Max daily value: {props.high_24h} - Min daily value: {props.low_24h}
+            Max daily value: {props.high_24h}<br></br> Min daily value: {props.low_24h}
           </Typography>
         </CardContent>
       </CardActionArea>

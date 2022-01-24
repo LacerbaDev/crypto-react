@@ -30,3 +30,13 @@ export const getCategoryList  = () => {
       console.log(err)
     })
 }
+
+export const getCoinDetail = (id) => {
+  return axios.get(`${ENDPOINTS.COIN_DETAIL}/${id}?localization=false`)
+    .then(res => {
+      return res
+    })
+    .catch(err => {
+      console.log(err)
+    })
+}
